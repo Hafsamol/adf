@@ -1,0 +1,13 @@
+{
+	"name": "DS_REST_PARAQUET",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_REST_PARAQUET",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

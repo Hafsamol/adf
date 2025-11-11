@@ -1,0 +1,19 @@
+{
+	"name": "DS_BULK_PARAQUET",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DS_REST_BULK_PARAQUET",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Avro",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "outputdata"
+			}
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

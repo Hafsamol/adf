@@ -1,0 +1,31 @@
+{
+	"name": "DS_CPY_BULKEXCEL",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_EXCEL_BULKLOAD",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Sheet1",
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "DATA.xlsx",
+				"fileSystem": "bulkexcel"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "id",
+				"type": "String"
+			},
+			{
+				"name": "current_age",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

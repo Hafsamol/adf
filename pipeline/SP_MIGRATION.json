@@ -1,0 +1,44 @@
+{
+	"name": "SP_MIGRATION",
+	"properties": {
+		"activities": [
+			{
+				"name": "SP_MIGRATION",
+				"type": "SqlServerStoredProcedure",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"storedProcedureName": "[dbo].[InsertCustomer]",
+					"storedProcedureParameters": {
+						"CustomerID": {
+							"value": "1002",
+							"type": "Int32"
+						},
+						"FirstName": {
+							"value": "Aydhin",
+							"type": "String"
+						},
+						"LastName": {
+							"value": "Adam",
+							"type": "String"
+						}
+					}
+				},
+				"linkedServiceName": {
+					"referenceName": "LS_SqlServer",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2025-11-07T01:21:41Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
