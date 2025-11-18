@@ -1,0 +1,147 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdemodatas"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage3_accountKey": {
+			"value": ""
+		},
+		"DS_IF_accountKey": {
+			"value": ""
+		},
+		"DS_REST_BULK_PARAQUET_accountKey": {
+			"value": ""
+		},
+		"DS_SINK_CPY_EXCEL_accountKey": {
+			"value": ""
+		},
+		"LS_AzureBlobStorage_connectionString": {
+			"value": ""
+		},
+		"LS_CPY_EXCEL_accountKey": {
+			"value": ""
+		},
+		"LS_EXCEL_BULKLOAD_accountKey": {
+			"value": ""
+		},
+		"LS_EXCEL_PARAQUET_accountKey": {
+			"value": ""
+		},
+		"LS_IFCONDITION_accountKey": {
+			"value": ""
+		},
+		"LS_IF_PARAQUET_accountKey": {
+			"value": ""
+		},
+		"LS_LOOKUP_AzureDataLakeStorage_accountKey": {
+			"value": ""
+		},
+		"LS_PARAQUET_accountKey": {
+			"value": ""
+		},
+		"LS_RESTTOPARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_BULKDATA_accountKey": {
+			"value": ""
+		},
+		"LS_SqlServer_password": {
+			"value": ""
+		},
+		"LS_SqlServer2_password": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"lS_IF_CONDITION_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adlsdevsinkdemodata.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://adlsdevbulkloaddemodata.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage3_properties_typeProperties_url": {
+			"value": "https://adlsdevsinkdemodata.dfs.core.windows.net/"
+		},
+		"DS_IF_properties_typeProperties_url": {
+			"value": "https://adlsdevbulkloaddemodata.dfs.core.windows.net/"
+		},
+		"DS_REST_BULK_PARAQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevsinkdemodata.dfs.core.windows.net/"
+		},
+		"DS_SINK_CPY_EXCEL_properties_typeProperties_url": {
+			"value": "https://adlsdevsinkdemodata.dfs.core.windows.net/"
+		},
+		"LS_CPY_EXCEL_properties_typeProperties_url": {
+			"value": "https://adlsdevbulkloaddemodata.dfs.core.windows.net"
+		},
+		"LS_EXCEL_BULKLOAD_properties_typeProperties_url": {
+			"value": "https://adlsdevbulkloaddemodata.dfs.core.windows.net/"
+		},
+		"LS_EXCEL_PARAQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevbulkloaddemodata.dfs.core.windows.net/"
+		},
+		"LS_IFCONDITION_properties_typeProperties_url": {
+			"value": "https://adlsdevbulkloaddemodata.dfs.core.windows.net/"
+		},
+		"LS_IF_PARAQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevsinkdemodata.dfs.core.windows.net/"
+		},
+		"LS_LOOKUP_AzureDataLakeStorage_properties_typeProperties_url": {
+			"value": "https://adlsdevbulkloaddemodata.dfs.core.windows.net/"
+		},
+		"LS_PARAQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevsinkdemodata.dfs.core.windows.net/"
+		},
+		"LS_RESTTOPARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevsinkdemodata.dfs.core.windows.net/"
+		},
+		"LS_REST_PARAQUET_properties_typeProperties_url": {
+			"value": "https://retoolapi.dev/5yDVOt/data"
+		},
+		"LS_SINK_BULKDATA_properties_typeProperties_url": {
+			"value": "https://adlsdevsinkdemodata.dfs.core.windows.net/"
+		},
+		"LS_SqlServer_properties_typeProperties_server": {
+			"value": "SHAIKHAFSA\\SQLEXPRESS"
+		},
+		"LS_SqlServer_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"LS_SqlServer_properties_typeProperties_userName": {
+			"value": "hafsa"
+		},
+		"LS_SqlServer2_properties_typeProperties_server": {
+			"value": "SHAIKHAFSA\\SQLEXPRESS"
+		},
+		"LS_SqlServer2_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"LS_SqlServer2_properties_typeProperties_userName": {
+			"value": "hafsa"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "SHAIKHAFSA\\SQLEXPRESS"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "hafsa"
+		},
+		"lS_IF_CONDITION_properties_typeProperties_url": {
+			"value": "https://adlsdevbulkloaddemodata.dfs.core.windows.net/"
+		}
+	}
+}
